@@ -21,7 +21,7 @@ public class PersonLoader {
             String name = rs.getString(2);
             String gender = rs.getString(3);
             String birthday = rs.getString(4);
-            String mail = rs.getString(5);
+            String mail = rs.getString(6);
             Float weight = rs.getFloat(5);
             list.add(new Person1(id,name,gender,birthday, mail, weight));
         }
